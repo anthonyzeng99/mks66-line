@@ -18,7 +18,7 @@ int main() {
   
   clear_screen(s);
 
-  draw_line(100, 200, 300, 300, s, c);
+  draw_line(0, 0, 100, 100, s, c);
   
   display(s);
   save_extension(s, "lines.png");

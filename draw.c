@@ -20,7 +20,7 @@ void draw_line(int x0, int y0, int x1, int y1, screen s, color c) {
   
   while (x <= x1) {
     plot(s, c, x, y);
-    if (d < 0) {
+    if (d > 0) {
       y++;
       d += (2 * b);  
     }
